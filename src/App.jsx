@@ -1,6 +1,7 @@
 import Description from './components/Description/Description';
 import Feedback from './components/Feedback/Feedback';
 import { useState } from 'react';
+import Options from './components/Options/Options';
 
 const App = () => {
   const [feedback, setFeedback] = useState({
@@ -18,7 +19,9 @@ const App = () => {
   return (
     <>
       <Description />
-      <Feedback options={feedback} updateFeedback={updateFeedback} />
+      <Options updateFeedback={updateFeedback} />
+
+      <Feedback feedback={feedback} />
     </>
   );
 };
