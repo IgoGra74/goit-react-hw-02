@@ -1,0 +1,68 @@
+.feedback {
+    color: #2e2f42;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.11;
+    letter-spacing: 0.62px;
+    margin-bottom: 10px;
+}
+
+.total {
+    color: #2e2f42;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.11;
+    letter-spacing: 0.62px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.goodNumber {
+    color: #12917c;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1.11;
+    letter-spacing: 0.62px;
+}
+
+.neutralNumber {
+    color: #ada516;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1.11;
+    letter-spacing: 0.62px;
+}
+
+.badNumber {
+    color: #e03e41;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1.11;
+    letter-spacing: 0.62px;
+}
+
+.totalNumber {
+    color: #1a4fc1;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1.11;
+    letter-spacing: 0.62px;
+}
+
+.positiveNumber {
+    color: #2e2f42;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1.11;
+    letter-spacing: 0.62px;
+}
+
+.positive {
+    color: #2e2f42;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.11;
+    letter-spacing: 0.62px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
