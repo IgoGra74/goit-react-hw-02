@@ -5,10 +5,15 @@ import Options from './components/Options/Options';
 import Notification from './components/Notification/Notification';
 
 const App = () => {
-  const initialFeedback = JSON.parse(localStorage.getItem('feedback')) || {
-    good: 0,
-    neutral: 0,
-    bad: 0,
+  const initialFeedback = () => {
+    const storedFeedback = JSON.parse(localStorage.getItem('feedback'));
+    return (
+      storedFeedback || {
+        good: 0,
+        neutral: 0,
+        bad: 0,
+      }
+    );
   };
 
   const [feedback, setFeedback] = useState(initialFeedback);
